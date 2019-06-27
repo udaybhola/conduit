@@ -19,23 +19,23 @@ General functionality:
 
 ### The general page breakdown looks like this:
 
-Home page (URL: /#/ )
-List of tags
-List of articles pulled from either Feed, Global, or by Tag
-Pagination for list of articles
-Sign in/Sign up pages (URL: /#/login, /#/register )
-Uses JWT (store the token in localStorage)
-Authentication can be easily switched to session/cookie based
-Settings page (URL: /#/settings )
-Editor page to create/edit articles (URL: /#/editor, /#/editor/article-slug-here )
-Article page (URL: /#/article/article-slug-here )
-Delete article button (only shown to article's author)
-Render markdown from server client side
-Comments section at bottom of page
-Delete comment button (only shown to comment's author)
-Profile page (URL: /#/profile/:username, /#/profile/:username/favorites )
-Show basic user info
-List of articles populated from author's created articles or author's favorited articles.
+1. Home page (URL: /#/ )
+2. List of tags
+3. List of articles pulled from either Feed, Global, or by Tag
+4. Pagination for list of articles
+5. Sign in/Sign up pages (URL: /#/login, /#/register )
+6. Uses JWT (store the token in localStorage)
+7. Authentication can be easily switched to session/cookie based
+8. Settings page (URL: /#/settings )
+9. Editor page to create/edit articles (URL: /#/editor, /#/editor/article-slug-here )
+10. Article page (URL: /#/article/article-slug-here )
+11. Delete article button (only shown to article's author)
+12. Render markdown from server client side
+13. Comments section at bottom of page
+14. Delete comment button (only shown to comment's author)
+15. Profile page (URL: /#/profile/:username, /#/profile/:username/favorites )
+16. Show basic user info
+17. List of articles populated from author's created articles or author's favorited articles.
 
 ### For data fetching 
 I am using open api : ` https://conduit.productionready.io/api `
